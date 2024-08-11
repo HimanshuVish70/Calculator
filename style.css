@@ -65,7 +65,7 @@ body{
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .calc input {
       width: 20rem;
       height: 6rem;
