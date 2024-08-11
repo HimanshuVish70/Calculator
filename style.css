@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(50, 52, 83);
+    padding: 0;
+    margin: 0;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px ;
+    margin: 5vw 36vw;
+    padding: 0;
+    border-radius: 20px;
+    background-color: rgb(50, 52, 83);
+    position: relative;
+}
+.calc h1{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+}
+.calc input{
+    width: 80%;
+    border: 0;
+    height: 4rem;
+    background-color: rgb(40, 42, 71);
+    color: white;
+    text-align: right;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    padding-right: 1rem;
+}
+.calc .container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.calc .container button{
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 30%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: rgb(108, 113, 142);
+    cursor: pointer;
+    border: 0;
+    color: white;
+    box-shadow: rgba(250, 250, 255, 0.854) 0px 1px 0px;
+}
+.calc .container .wide{
+    width: 8.5rem;
+    border-radius: 20px;
+}
+.calc .container .row{
+    display: flex;
+    gap: 0.5rem;
+}
+.calc .container .eval{
+    color: rgb(110, 231, 231);
+}
+
+
+@media (min-width: 400px) {
+    .calc input {
+      width: 20rem;
+      height: 6rem;
+      margin-top: 1rem;
+    }
+    .calc .container{
+        margin-top: 3rem;
+    }
+  }
